@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>The Guest List!</title>
+<link href="style.css" rel="stylesheet">
+<script src="main.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+<center>
+<h1>Guest List</h1>
+<span><input type="text" placeholder="Enter a guest's name here!" id="enter_name"></span>
+<button onclick="enter()" id="enter_btn">Enter</button>
+<hr>
+<p id="display_names"></p>
+<hr>
+<h1>Names of Guests:</h1>
+<button onclick="show()" id="show_btn">Show Guests</button>
+<hr>
+<p id="display_list"></p>
+<hr>
+<h1>Sort:</h1>
+<button id="sort_btn" onclick="sort()">Sort</button>
+<p id="sorted_list"></p>
+<hr>
+<h1>Search:</h1>
+<span><input type="text" placeholder="Search for guests..." id="search_name"></span>
+<button onclick="search()">Search</button>
+<hr>
+<p id="search_result"></p>
+<hr>
+<img id="guests_img" src="https://thumbs.dreamstime.com/b/happy-smiling-guests-cake-presents-group-friends-came-to-other-meeting-welcome-vector-illustration-137048645.jpg">
+</center>
+</body>
+</html>
